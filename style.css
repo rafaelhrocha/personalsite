@@ -1,0 +1,86 @@
+.color{
+    background-color: rgb(124, 118, 118);
+}
+
+.color_header{
+    background-color: rgb(61, 60, 60);
+}
+
+
+
+.perfil_image{
+    margin-left: 30%;
+    margin-top: 10% ; 
+    max-width:80%;
+    max-height:80%;
+    width: auto;
+    height: auto;
+    align-self: center;
+    border: solid 4px;
+    border-radius: 4px;
+    border-color: rgb(61, 60, 60);
+    }
+
+.perfil_information{
+    margin-top: 6% ;
+    margin-right: 10%; 
+    margin-left: 5%;
+}
+
+.h4{
+    font-weight: 30px; 
+}
+
+.contatos{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.projetos{
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+
+.botao{
+    margin-top: 3% !important;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+
+
+.experiencia{ 
+    margin-top: 2% !important;
+    margin-left: 10%;
+
+}
+
+.imagem_xp{
+    margin-left: 10% !important;
+}
+
+.github{
+    margin-top: 80px !important;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+
+.color_git{
+    color:rgb(212, 206, 206);
+    background-color: rgb(83, 78, 78);
+}
+
+.footer_logo{
+    margin-top: 1%;
+    background-color: rgb(83, 78, 78);
+    color:rgb(212, 206, 206);
+}
+
+#follow{
+    font-weight: 500;
+    font-size: 18px;
+}
+
