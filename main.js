@@ -14,15 +14,14 @@ fetch("https://api.github.com/users/rafaelhrocha").then(res => res.json().then(r
     var jsonRepo = res.repos_url
     fetch(jsonRepo).then(res => res.json().then(res => {
         
-        console.log(res)
-
+    
         var rep1 = document.querySelector("#rep1")
         var rep2 = document.querySelector("#rep2")
         var rep3 = document.querySelector("#rep3")
 
         rep1.innerHTML = res[0].name
         rep2.innerHTML = res[1].name
-        rep3.innerHTML = res[2].name
+        rep3.innerHTML = res[3].name
 
         
         var rep1link = document.querySelector("#rep1link")
@@ -31,11 +30,45 @@ fetch("https://api.github.com/users/rafaelhrocha").then(res => res.json().then(r
 
         rep1link.innerHTML = res[0].html_url
         rep2link.innerHTML = res[1].html_url
-        rep3link.innerHTML = res[2].html_url
+        rep3link.innerHTML = res[3].html_url
+
+        var l1 = document.querySelector("#l1")
+        var l2 = document.querySelector("#l2")
+        var l3 = document.querySelector("#l3")
+
+        l1.innerHTML = res[0].language
+        l2.innerHTML = res[1].language
+        l3.innerHTML = res[3].language
+    }))
+
+    var url_flw = res.followers_url
+    fetch(url_flw).then(res => res.json().then(res => {
+
+
+        var fotoflw = document.querySelector("#imgflw1")
+        fotoflw.setAttribute("src",res[0].avatar_url)
+
+        var login = document.querySelector("#loginflw1")
+        login.innerHTML = res[0].login
+
+        var fotoflw = document.querySelector("#imgflw2")
+        fotoflw.setAttribute("src",res[1].avatar_url)
+
+        var login = document.querySelector("#loginflw2")
+        login.innerHTML = res[1].login
+
+        var fotoflw = document.querySelector("#imgflw3")
+        fotoflw.setAttribute("src",res[2].avatar_url)
+
+        var login = document.querySelector("#loginflw3")
+        login.innerHTML = res[2].login
+
+        
 
     }))
 
-    console.log(res.repos_url)
+    
+
 }))
 
 

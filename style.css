@@ -4,6 +4,7 @@
 
 .color_header{
     background-color: rgb(61, 60, 60);
+    color:blanchedalmond;
 }
 
 
@@ -81,6 +82,51 @@
 
 #follow{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
 }
 
+#rep1link{
+    color: black;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#rep2link{
+    color: black;
+    font-size: 16px;
+}
+
+#rep3link{
+    color: black;
+    font-size: 16px;
+}
+
+#rep1{
+    font-size: 24px;
+}
+
+
+#rep2{
+    font-size: 24px;
+}
+
+
+
+#rep3{
+    font-size: 24px;
+}
+
+#imgflw1{
+    width: 70%;
+    height: 80%;
+}
+
+#imgflw2{
+    width: 70%;
+    height: 80%;
+}
+
+#imgflw3{
+    width: 70%;
+    height: 80%; 
+}
